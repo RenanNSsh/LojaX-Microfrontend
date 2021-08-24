@@ -1,4 +1,22 @@
-#carrinho{
-  padding: 30rem;
-  border: 10px dashed red;
+@import url('http://fonts.cdnfonts.com/css/sansation');
+
+.loja-header{
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3f3d56;
+  font-size: 1rem;
+  font-family: 'Sansation';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  h1{
+    margin-left: 2rem;
+  }
+  span{
+    margin-right: 2rem;
+  }
 }
